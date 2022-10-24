@@ -1,3 +1,9 @@
 # CalculoCombustivel
 
-Pequeno calculo criado para dar as primeiras aulas em Javascript mostrando operadores matemáticos simples e suas funções
+Na aula 1, variáveis e operadores:
+
+Pequeno calculo criado para dar as primeiras aulas em Javascript mostrando operadores aritiméticos simples e declarando variáveis 
+
+na aula 2, estruturas condicionais:
+
+Ele retorna verdadeiro ou falso conforme as condiçoes impostas no código e aqui temos exemplos simples de uso do if, else e else if de forma simples
