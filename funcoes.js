@@ -53,12 +53,14 @@ function classificarImc(imc) {
 
 }
 
-function main (){
+(function  (){
     const peso = 75;
     const altura = 1.75;
     const imc = calcularImc(peso, altura);
     console.log(classificarImc(imc));
-}
+})();//função isolada imediatamente invocada
 
-main(); //função no javascript são como se fossem valores que a gente consegue manipular(objetos do tipo função)
+//main(); 
+
+//função no javascript são como se fossem valores que a gente consegue manipular(objetos do tipo função)
 
