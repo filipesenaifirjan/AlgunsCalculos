@@ -10,6 +10,8 @@ A vista em dinheiro ou Pix, recebe 15% de desconto;
 Em duas vezes, preço normal de etiqueta sem juros;
 Acima de duas vezes, preço normal de etiqueta mais juros de 10%;*/
 
+//nesse caso, criamos uma abstração do problema, colocando opções de pagamento facilitando a leitura e deixando o código mais clean
+
 const precoDeEtiqueta =35.00;
 const formaDePagamento = 4;
 
