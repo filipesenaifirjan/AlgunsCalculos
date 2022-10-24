@@ -6,4 +6,6 @@ Pequeno calculo criado para dar as primeiras aulas em Javascript mostrando opera
 
 na aula 2, estruturas condicionais:
 
-Ele retorna verdadeiro ou falso conforme as condiçoes impostas no código e aqui temos exemplos simples de uso do if, else e else if de forma simples
+Ele retorna verdadeiro ou falso (trechos de códigos executados) conforme as condiçoes impostas no código e aqui temos exemplos simples de uso do if, else e else if de forma simples
+
+
