@@ -1,6 +1,6 @@
 
 
-class Pessoa { //classe é a definição
+class Pessoa { //classe é a definição e objeto é uma coleção de valores
     nome;
     idade;
     anoDeNascimento;
@@ -15,11 +15,58 @@ class Pessoa { //classe é a definição
         console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
     }
 }
-const filipe = new Pessoa('Filipe', 17);
+
+function compararPessoas(p1, p2) {
+    if (p1.idade > p2.idade) {
+        console.log(`${p1.nome} é mais velho(a) que ${p2.nome}`);
+    } else if (p2.idade > p2.idade) { 
+        console.log(`${p2.nome} é mais velho(a) que ${p1.nome}`);
+} else {
+    console.log(`${p1.nome} e ${p2.nome} tem a mesma idade`);
+}
+}
+
+const filipe = new Pessoa('Filipe', 18);
+const filipe2 = new Pessoa('Filipe2',17);
+
+compararPessoas(filipe, filipe2);
+
+
+//usando objeto para agregar valores de uma forma facil de entender
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//const filipe = new Pessoa('Filipe', 17);
 //filipe.nome = 'Filipe Mattos';
 //filipe.idade = 18;
 
-const filipe2 = new Pessoa('Filipe2', 18);
+//const filipe2 = new Pessoa('Filipe2', 18);
 //filipe2.nome = 'Filipe2';
 //filipe2.idade = 16;
 
@@ -27,7 +74,7 @@ const filipe2 = new Pessoa('Filipe2', 18);
 //filipe.descrever();
 //filipe2.descrever();
 
-console.log(filipe);
+//console.log(filipe);
 
 
 //console.log(filipe);
