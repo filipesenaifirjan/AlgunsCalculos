@@ -9,12 +9,20 @@ const pessoa = {
         console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
     }
 };
-//ou:
-pessoa.descrever = function() {
-    console.log(`Meu nome é ${this.nome}`);
-}
 
-pessoa.descrever();
+console.log(pessoa[`nome`]);//através de uma string vc acessa dinamicamente o atributo
+
+
+
+
+
+
+//ou:
+//pessoa.descrever = function() {
+   // console.log(`Meu nome é ${this.nome}`);
+//}
+
+//pessoa.descrever();
 
 //uma vez que definimos o objeto literal, podemos incrementar ele dinamicamente
 //filipe.altura = 1.76;
