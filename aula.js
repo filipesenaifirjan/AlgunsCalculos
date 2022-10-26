@@ -1,3 +1,7 @@
+
+
+
+
 /*Desafio 3:
 
 elabore um algorítimo que calcule o que deve ser pago pelo produto, considerando o preço normal da etiqueta e a escolha da condição de pagamento:
